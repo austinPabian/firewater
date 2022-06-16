@@ -830,8 +830,8 @@ input.btn:focus { border-width: 2px; }
 /* button box shadow */
 .btn-box-shadow { box-shadow: 0 0 15px rgba(0,0,0,.1);}
 .btn-box-shadow:hover {box-shadow: 0 8px 30px -5px rgba(0,0,0,.2); -moz-transform: translate3d(0, -3px, 0); -o-transform: translate3d(0, -3px, 0); -ms-transform: translate3d(0, -3px, 0); -webkit-transform: translate3d(0, -3px, 0); transform: translate3d(0, -3px, 0);}
-.btn.btn-box-shadow.btn-white { background:#ffffff; border-color: #ffffff; color: #232323; }
-.btn.btn-box-shadow.btn-white:hover, .btn.btn-white:focus { background: #ffffff; color: #232323; }
+.btn.btn-box-shadow.btn-mobile { background:#ffffff; border-color: #ffffff; color: #232323; }
+.btn.btn-box-shadow.btn-white.btn-mobile:hover, .btn.btn-white:focus { background: #ffffff; color: #232323; }
 .btn.btn-box-shadow.btn-dark-gray { background:#232323; border-color: #232323; color: #fff; }
 .btn.btn-box-shadow.btn-dark-gray:hover, .btn.btn-extra-dark-gray:focus { background: #232323; color: #fff; }
 .btn.btn-box-shadow.btn-golden-brown { background:#CD9452; border-color: #CD9452; color: #fff; }

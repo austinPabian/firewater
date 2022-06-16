@@ -1345,6 +1345,7 @@
     .fw-center-logo { width: 250px; margin-bottom: 20px; }
     .fw-icons { height: 25px; padding-right: 7.5px;}
     .tagline { width: 90%; margin: 0 auto}
+    
 
     .text-footer{ font-size: 140px; line-height: 140px; padding-top: 10%}
     .text-method { font-size: 110px; left: -.4em; text-align: right}
@@ -3193,6 +3194,7 @@
     .text-footer{ font-size: 60px; line-height: 90px; padding-top: 0%}
     .text-method { font-size: 180px; left: .2em; text-align: right}
 
+
     
     /* reset */
     html { font-size: 12px }
@@ -4824,7 +4826,18 @@
     .home-architecture .tparrows.tp-rightarrow { transform: matrix(1, 0, 0, 1, -67, -301) !important; }
 }
 
+@media screen and (min-width: 768px) {
+     /* firewater */
+    .btn-mobile { visibility: hidden; display: none; }
+}
+
 @media (max-width: 767px) {
+    /* firewater */
+    .hidden-mobile { visibility: hidden; display: none; }
+    .btn-mobile { visibility: visible; display: block; margin-top: .5em; margin-top: 1em; margin-right: 1em; margin-bottom: -5%; text-align: right; }
+
+
+    
     /* reset */
     html { font-size: 11px }
     .xs-center-col { float:none; margin-left:auto; margin-right:auto; }
@@ -4832,6 +4845,10 @@
     section.big-section { padding:80px 0; }
     .center-col-style .custom-col { flex: 0 0 100%; max-width: 100%; margin: 8px 0; }
     .sm-last-order { order: 10; }
+    .hidden-mobile { visibility: hidden; display: none; }
+
+    
+
 
     /* typography */
     p { margin: 0 0 15px }
@@ -8026,7 +8043,8 @@
     .home-split-portfolio .title-large { font-size: 45px; line-height: 40px; }
 }
 
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 480px) {    
     /* yoga meditation*/
     .home-yoga-meditation .rev_slider_wrapper { height: calc(100vh - 72px) !important; }
 
