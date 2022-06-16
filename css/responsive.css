@@ -3191,7 +3191,7 @@
 
 @media (max-width: 991px) {
      /* firewater */
-    .text-footer{ font-size: 60px; line-height: 90px; padding-top: 0%}
+    .text-footer { font-size: 100px; line-height: 110px; padding-top: 0%; margin-bottom: .1em }
     .text-method { font-size: 180px; left: .2em; text-align: right}
 
 
@@ -4836,6 +4836,8 @@
     .text-method { font-size: 130px; left: .2em; text-align: right}
     .hidden-mobile { visibility: hidden; display: none; }
     .btn-mobile { visibility: visible; display: block; margin-top: .5em; margin-top: 1em; margin-right: 1em; margin-bottom: -5%; text-align: right; }
+    .text-footer { font-size: 100px; line-height: 110px; padding-top: 0% }
+
 
     
     /* reset */
