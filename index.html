@@ -59,7 +59,7 @@
                         </button>
                         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                             <ul class="navbar-nav alt-font">
-                                <li class="nav-item"><a href="#home" class="inner-link nav-link">Home</a></li>
+                               
                                 <li class="nav-item"><a href="#about" class="inner-link nav-link">About Us</a></li>
                                 <!--    <li class="nav-item"><a href="#pricing" class="inner-link nav-link">Pricing</a></li> -->
                                 <li class="nav-item"><a href="#services" class="inner-link nav-link">How We Do It</a></li>
@@ -111,6 +111,10 @@
             </nav>
             <!-- end navigation -->
              
+           
+                            
+      
+            
                             
       
             
@@ -145,7 +149,43 @@
                         </div>
                         <div class="down-section text-center"><a href="#about" class="section-link up-down-ani"><i class="fa fa-arrow-down icon-small text-white"></i></a></div>
                     </div>
+                     
                     
+                    
+                        <!-- start modal pop-up -->
+                        <div id="modal-quote" class="mobile-form zoom-anim-dialog col-12 col-xl-8 col-lg-10 col-md-10 col-sm-12 mx-auto bg-white text-center padding-4-half-rem-all mfp-hide border-radius-6px sm-padding-2-half-rem-lr">
+                             <!-- start contact form -->
+                                 <span class="alt-font text-extra-large font-weight-600 text-black margin-25px-bottom">Please fill out this quick form and our team will reach out as soon as humanly possible! Pinky-promise.</span>
+                                <br/>
+                                <br/>
+
+                                <!-- modify this form HTML and place wherever you want your form -->
+                                <form  action="https://formspree.io/f/xlezvyba" method="POST">
+                                    <div class="row row-cols-1 row-cols-md-2 text-extra-dark-gray">
+                                        <div class="col margin-4-rem-bottom sm-margin-25px-bottom ">
+                                            <input class="medium-input input-border-bottom border-color-black-transparent px-0 bg-transparent margin-25px-bottom required" type="text" name="name" placeholder="Your name">
+                                            <input class="medium-input input-border-bottom border-color-black-transparent px-0 bg-transparent margin-25px-bottom required" type="email" name="email" placeholder="Your email address">
+                                            <input class="medium-input input-border-bottom border-color-black-transparent px-0 bg-transparent mb-0" type="tel" name="phone" placeholder="Your phone number">
+                                        </div>
+                                        <div class="col margin-4-rem-bottom sm-margin-30px-bottom">
+                                            <textarea class="medium-textarea input-border-bottom border-color-black-transparent px-0 bg-transparent h-190px" name="comment" placeholder="Your message"></textarea>
+                                        </div>
+                                        <div class="col text-center text-md-start sm-last-order">
+                                            <span class="text-small d-inline-block w-85 lg-w-100">We are committed to protecting your privacy. We will never collect information about you without your explicit consent.</span>
+                                        </div>
+                                        <div class="col text-center text-md-end sm-margin-20px-bottom">
+                                            <input type="hidden" name="redirect" value="">
+                                            <button class="btn btn-medium btn-fancy btn-black mb-0" type="submit">Let's get started!</button>
+                                        </div>
+                                    </div>
+                                    <div class="form-results d-none sm-margin-10px-top sm-margin-20px-bottom"></div>
+                                </form>
+                                <!-- end contact form 
+                            <a class="btn btn-fancy btn-small btn-transparent-light-gray popup-modal-dismiss" href="#">NEVERMIND</a> -->
+                        </div>
+                        <!-- end modal pop-up -->
+            <!-- end navigation -->
+             
                 </div>
             </div>
 
@@ -702,32 +742,7 @@
         <script type="text/javascript" src="js/theme-vendors.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
         
-<SCRIPT>
-function passWord() {
-var testV = 1;
-var pass1 = prompt('Please Enter Your Password',' ');
-while (testV < 3) {
-if (!pass1)
-history.go(-1);
-if (pass1.toLowerCase() == "msu22") {
-alert('You Got it Right!');
-window.open('https://firewaterapparel.co/');
-break;
-}
-testV+=1;
-var pass1 =
-prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
-}
-if (pass1.toLowerCase()!="password" & testV ==3)
-history.go(-1);
-return " ";
-}
-</SCRIPT>
-<CENTER>
-<FORM>
-<input type="button" value="Enter Protected Area" onClick="passWord()">
-</FORM>
-</CENTER>
+
     </body>
     
       <script>
