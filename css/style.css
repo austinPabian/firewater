@@ -539,6 +539,11 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 /* custom CSS */
 /* interactive banner style 09 */
 
+navbar-brand-catalog {
+ width: 300px!important;
+}
+
+
 .snipcart-modal__container { z-index: 9999}
 
 .fw-catalog-item figure { position: relative; overflow: hidden; }

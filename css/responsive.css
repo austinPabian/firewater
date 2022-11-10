@@ -1348,6 +1348,9 @@
     .fw-center-logo { width: 250px; margin-bottom: 20px; }
     .fw-icons { height: 25px; padding-right: 7.5px;}
     .tagline { width: 90%; margin: 0 auto}
+    header .navbar .navbar-brand .default-logo, header.sticky .navbar-brand .alt-logo, header .sidebar-nav-menu .navbar-brand .default-logo {
+        width: 175px;
+    }
     
 
     .text-footer{ font-size: 140px; line-height: 140px; padding-top: 10%}
