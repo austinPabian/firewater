@@ -11,6 +11,8 @@
     
     /* firewater */
     .fw-center-logo { width: 300px; margin-bottom: 20px; }
+    .fw-catalog-logo { width: 400px; margin-bottom: 20px; }
+
     .fw-icons { height: 30px; padding-right: 10px;}
     .tagline { width: 80%; margin: 0 auto}
     .text-footer { font-size: 220px; line-height: 220px; padding-top: 1.5% }
@@ -26,6 +28,8 @@
     
      /* firewater */
     .fw-center-logo { width: 300px; margin-bottom: 20px; }
+    .fw-catalog-logo { width: 400px; margin-bottom: 20px; }
+
     .tagline { width: 80%; margin: 0 auto}
 
     .text-footer { font-size: 180px; line-height: 180px; padding-top: 5% }
@@ -1304,6 +1308,8 @@
 @media (max-width: 1500px) {
     /* firewater */
     .fw-center-logo { width: 300px; margin-bottom: 20px; }
+    .fw-catalog-logo { width: 400px; margin-bottom: 20px; }
+
     .fw-icons { height: 30px; padding-right: 10px;}
     .tagline { width: 80%; margin: 0 auto}
 
@@ -1323,6 +1329,8 @@
 @media (max-width: 1300px) {
      /* firewater */
     .fw-center-logo { width: 300px; margin-bottom: 20px; }
+    .fw-catalog-logo { width: 400px; margin-bottom: 20px; }
+
     .fw-icons { height: 25px; padding-right: 7.5px;}
     .tagline { width: 80%; margin: 0 auto}
     .text-footer{ font-size: 160px; line-height: 160px; padding-top: 7%}
@@ -1337,6 +1345,8 @@
 @media (min-width: 1199px) {
      /* firewater */
     .fw-icons { height: 25px; padding-right: 7.5px;}
+    .fw-catalog-logo { width: 350px; margin-bottom: 20px; margin-top: -40px}
+
 
     
     /* page container */
@@ -1346,10 +1356,12 @@
 @media (max-width: 1199px) {
     /* firewater */
     .fw-center-logo { width: 250px; margin-bottom: 20px; }
+
     .fw-icons { height: 25px; padding-right: 7.5px;}
     .tagline { width: 90%; margin: 0 auto}
     header .navbar .navbar-brand .default-logo, header.sticky .navbar-brand .alt-logo, header .sidebar-nav-menu .navbar-brand .default-logo {
         width: 175px;
+        max-height: 75px;
     }
     
 
@@ -2858,6 +2870,8 @@
 @media (max-width: 1024px) {
     /* firewater */
     .fw-center-logo { width: 160px; margin-bottom: 15px; }
+    .fw-catalog-logo { width: 300px; margin-bottom: 20px; }
+
     .fw-icons { height: 22px; padding-right: 6px;}
     .text-footer{ font-size: 130px; line-height: 130px; padding-top: 10%}
     .text-method { font-size: 110px; left: -.4em; text-align: right}
@@ -2900,6 +2914,8 @@
 @media only screen and (max-width:1024px) and (min-width: 778px) {
     /* firewater */
     .fw-center-logo { width: 250px; margin-bottom: 20px; }
+    .fw-catalog-logo { width: 350px; margin-bottom: 20px; }
+
     
     /* spa salon */
     .home-spa-salon .ares { top: 55.5% !important; }
@@ -2908,6 +2924,10 @@
 
 /* Navigation breakpoint start */
 @media (max-width: 991px) {
+    /* firewater */
+    .fw-catalog-logo { width: 300px; margin-bottom: 20px; margin-top: -30px}
+    
+
     
     
     .menu-list-wrapper.mCS_no_scrollbar .mCSB_inside>.mCSB_container .menu-list { padding-right: 0;}
@@ -3046,6 +3066,7 @@
 
     /* header logo */
     header .navbar .navbar-brand .default-logo, header.sticky .navbar-brand .alt-logo, header.sticky .navbar .navbar-brand .default-logo, header .navbar-brand .alt-logo, header .sidebar-nav-menu .navbar-brand .default-logo { visibility: hidden; opacity: 0; width: 0; }
+    
     header .navbar .navbar-brand .mobile-logo, header .sidebar-nav-menu .navbar-brand .mobile-logo  { visibility: visible; opacity: 1; width: auto; max-width: 90% }
 
     /* header with top logo */
@@ -4847,6 +4868,7 @@
     .btn-atc { padding: 1rem 1.5rem; font-size: 1.2rem; width: 100%}
     .cart-mobile { padding-top: 1em; padding-bottom: 1em; }
     .mobile-checkout { display: flex; visibility: visible; }
+    header .navbar .navbar-brand-catalog img, header.side-menu .logo img, header .sidebar-nav-menu .navbar-brand img {max-width: 200px;}
 
 
 

@@ -539,10 +539,6 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 /* custom CSS */
 /* interactive banner style 09 */
 
-navbar-brand-catalog {
- width: 300px!important;
-}
-
 
 .snipcart-modal__container { z-index: 9999}
 
@@ -2991,6 +2987,8 @@ header.sticky .navbar.header-dark .navbar-toggler-line { background: #fff; }
 
 /* header logo */
 header .navbar .navbar-brand img, header.side-menu .logo img, header .sidebar-nav-menu .navbar-brand img { max-height: 36px; max-width: none; }
+
+header .navbar .navbar-brand-catalog img, header.side-menu .logo img, header .sidebar-nav-menu .navbar-brand img { max-height: 50px; max-width: none; }
 
 header .navbar .navbar-brand .default-logo, header.sticky .navbar-brand .alt-logo, header .sidebar-nav-menu .navbar-brand .default-logo { visibility: visible; opacity: 1; width: 250px; transition-duration:0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s; }
 
