@@ -89,7 +89,7 @@
                         <h3 class="script-font text-black mb-0">The Michigan State Wakeboard Team</h3>
                             <p><em><strong>Catalog page password protection coming soon!</strong></em>
                         In the meantime, don't share your page with anyone who won't be ordering and having their goods shipped to the same location as your team. Or do—I'm not your mother.</p>
-                        <p>Note: the current order period is <strong>Nov. 23 to END DATE</strong>. All orders placed will be created at the end of the order period and shipped to <strong>the MSU Wake House</strong>.</p>
+                        <p>Note: the current order period is <strong>Nov. 23 to Dec. 12 at 11:59 p.m.</strong> All orders placed within this timeframe will be created at the end of the order period and shipped to <strong>the MSU Wake House</strong>.</p>
                             
                         
 
@@ -1154,7 +1154,14 @@
                                         <option value="Large">Large</option>
                                         <option value="X-Large">X-Large</option>
                                         <option value="2X-Large">2X-Large</option>
-                                </select>                                
+                                </select>
+                                
+                                <!-- CHANGE COLOR NUMBER BELOW -->
+                                <label>Pick a color:</label>
+                                <select id="color_x_13">
+                                        <option value="White">White</option>
+                                        <option value="Black">Black</option>
+                                </select>
                                 
                                 <!-- CHANGE ITEM NUMBER AND INFORMATION BELOW -->
                                 <button id="item_x_13"
@@ -1162,11 +1169,13 @@
                                     data-item-id="msu-wake_x_13"
                                     data-item-price="15.00"
                                     data-item-url="https://firewaterapparel.co/teams/msu-wake/catalog"
-                                    data-item-description="Unisex sizing. Heat-transfer logo on chest."
+                                    data-item-description="Unisex sizing. Heat-transfer chest print."
                                     data-item-image="/teams/msu-wake/catalog/mockup-13.png"
                                     data-item-name="Pocket Tee"
                                     data-item-custom1-name="Size"
-                                    data-item-custom1-options="Small|Medium|Large|X-Large|2X-Large">   
+                                    data-item-custom1-options="Small|Medium|Large|X-Large|2X-Large"
+                                    data-item-custom2-name="Color"
+                                    data-item-custom2-options="White|Black">   
                                 <i class="fa fa-shopping-cart" style="margin-right: 5px"> </i>Add to cart
                                 </button>
                                 
@@ -1178,7 +1187,11 @@
                                     // Sets the default frame color when adding the item
                                         button_x_13.setAttribute("data-item-custom1-value", size_x_13.value)
                                     })
-                                    
+                                    const color_x_13 = document.querySelector('#color_x_13')
+                                    color_x_13.addEventListener('change', () => {
+                                    // Sets the default frame color when adding the item
+                                        button_x_13.setAttribute("data-item-custom2-value", color_x_13.value)
+                                    })
                                 </script>
                             </div>                            
                         </div>
@@ -1229,7 +1242,7 @@
 <span class="alt-font font-weight-500 text-fw-red text-uppercase d-block margin-20px-bottom letter-spacing-1px">$19</span>                              <p class="item-description">SIZING/FIT</p>                             <p>Unisex</p>                                                          <p class="item-description">PRINT METHOD(S)</p>                             <p>Heat-Transfer Vinyl</p>
                             <div class="col-xl-6 col-sm-12 col-xs-12">
                               
-                                <!-- CHANGE SIZE NUMBER BELOW -->
+                                 <!-- CHANGE SIZE NUMBER BELOW -->
                                 <label>Select a size:</label>
                                 <select id="size_x_14">
                                         <option value="Small">Small</option>
@@ -1237,7 +1250,14 @@
                                         <option value="Large">Large</option>
                                         <option value="X-Large">X-Large</option>
                                         <option value="2X-Large">2X-Large</option>
-                                </select>                                
+                                </select>
+                                
+                                <!-- CHANGE COLOR NUMBER BELOW -->
+                                <label>Pick a color:</label>
+                                <select id="color_x_14">
+                                        <option value="White">White</option>
+                                        <option value="Black">Black</option>
+                                </select>
                                 
                                 <!-- CHANGE ITEM NUMBER AND INFORMATION BELOW -->
                                 <button id="item_x_14"
@@ -1245,11 +1265,13 @@
                                     data-item-id="msu-wake_x_14"
                                     data-item-price="19.00"
                                     data-item-url="https://firewaterapparel.co/teams/msu-wake/catalog"
-                                    data-item-description="Unisex sizing. Heat-transfer logo on chest."
+                                    data-item-description="Unisex sizing. Heat-transfer chest print."
                                     data-item-image="/teams/msu-wake/catalog/mockup-14.png"
                                     data-item-name="Longsleeve Pocket Tee"
                                     data-item-custom1-name="Size"
-                                    data-item-custom1-options="Small|Medium|Large|X-Large|2X-Large">   
+                                    data-item-custom1-options="Small|Medium|Large|X-Large|2X-Large"
+                                    data-item-custom2-name="Color"
+                                    data-item-custom2-options="White|Black">   
                                 <i class="fa fa-shopping-cart" style="margin-right: 5px"> </i>Add to cart
                                 </button>
                                 
@@ -1261,7 +1283,11 @@
                                     // Sets the default frame color when adding the item
                                         button_x_14.setAttribute("data-item-custom1-value", size_x_14.value)
                                     })
-                                    
+                                    const color_x_14 = document.querySelector('#color_x_14')
+                                    color_x_14.addEventListener('change', () => {
+                                    // Sets the default frame color when adding the item
+                                        button_x_14.setAttribute("data-item-custom2-value", color_x_14.value)
+                                    })
                                 </script>
                             </div>                            
                         </div>
