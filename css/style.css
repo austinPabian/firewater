@@ -379,6 +379,8 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 /* Custom Backgrounds */
 
 .bg-msuwake { background-color: #19453b}
+.bg-indianawake { background-color: #a32035}
+
 
 
 /* Stock Backgrounds */
@@ -696,8 +698,8 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 }
 
 .cart-mobile { 
-color: #fff !important;
-font-size: 14px;
+    color: #fff !important;
+    font-size: 14px;
 }
 
 .mobile-checkout {
@@ -706,7 +708,7 @@ font-size: 14px;
 }
 
 .fw-catalog-item {
-    opacity: 1;
+  opacity: 1;
   transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; 
 }
 
