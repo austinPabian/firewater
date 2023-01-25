@@ -63,8 +63,8 @@ html { font-size: 14px; }
 body { font-size: 15px; line-height: 30px; font-weight: 400; color: #333; font-family: 'work sans', sans-serif; padding: 0; margin: 0; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-break: break-word }
 body, html { -moz-osx-font-smoothing: grayscale; }
 a { text-decoration: none; }
-a:hover, a:focus { text-decoration: none; outline: none; outline-offset:0; color: #0038e3; }
-a, a.nav-link, a:active, a:focus { color: #828282; }
+a:hover, a:focus { text-decoration: none; outline: none; outline-offset:0; color: #bc331c; }
+a, a.nav-link, a:active, a:focus { color: #e93825;; }
 a, a.nav-link, .btn, input, textarea, select { transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; }
 img { max-width: 100%; height: auto; }
 video { background-size: cover; display: table-cell; vertical-align: middle; width: 100%; }
