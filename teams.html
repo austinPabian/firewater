@@ -268,7 +268,7 @@
                             <img src="images/firewater-script-white_alt.svg" data-at2x="images/firewater-script-white_alt.svg" alt="">
                         </div>
                         <div class="col-12 col-md-5 text-center last-paragraph-no-margin sm-margin-20px-bottom footer-text">
-                            <p style="color: white">&copy; 2022 Firewater Apparel Co., LLC. All rights reserved.</p>
+                            <p style="color: white">&copy; <span id="year"></span> Firewater Apparel Co., LLC. All rights reserved.</p>
                         </div>
                         <div class="col-12 col-md-3 text-center">
                             <div class="social-icon-style-12">
@@ -287,7 +287,8 @@
         <!-- start scroll to top -->
         <a class="scroll-top-arrow" href="javascript:void(0);"><i class="fa fa-arrow-up"></i></a>
         <!-- end scroll to top -->
-        <!-- javascript -->
+        <!-- javascript -->               <script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
+
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/theme-vendors.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>

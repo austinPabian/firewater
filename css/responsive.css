@@ -4858,7 +4858,7 @@
     .btn-mobile { visibility: hidden; display: none; }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     /* firewater */
     .text-method { font-size: 130px; left: .2em; text-align: right}
     .hidden-mobile { visibility: hidden; display: none; }
