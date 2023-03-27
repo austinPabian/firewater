@@ -1,97 +1,124 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Sticky Demos</title>
 
-<head>
-	<title>Sticky Demos</title>
+    <!-- Mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<!-- Mobile support -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Twitter Bootstrap -->
+    <link
+      href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-	<!-- Twitter Bootstrap -->
-	<link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design for Bootstrap -->
+    <link href="dist/css/roboto.min.css" rel="stylesheet" />
+    <link href="dist/css/material-fullpalette.min.css" rel="stylesheet" />
+    <link href="dist/css/ripples.min.css" rel="stylesheet" />
 
-	<!-- Material Design for Bootstrap -->
-	<link href="dist/css/roboto.min.css" rel="stylesheet">
-	<link href="dist/css/material-fullpalette.min.css" rel="stylesheet">
-	<link href="dist/css/ripples.min.css" rel="stylesheet">
+    <!-- Dropdown.js -->
+    <link
+      href="//cdn.rawgit.com/FezVrasta/dropdown.js/master/jquery.dropdown.css"
+      rel="stylesheet"
+    />
 
-	<!-- Dropdown.js -->
-	<link href="//cdn.rawgit.com/FezVrasta/dropdown.js/master/jquery.dropdown.css" rel="stylesheet">
+    <!-- Page style -->
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
 
-	<!-- Page style -->
-	<style>
-	html, body{height:100%; margin:0;padding:0}
+      .container-fluid {
+        height: 100%;
+        display: table;
+        width: 100%;
+        padding: 0;
+      }
 
-	.container-fluid{
-	  height:100%;
-	  display:table;
-	  width: 100%;
-	  padding: 0;
-	}
+      .row-fluid {
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+      }
 
-	.row-fluid {height: 100%; display:table-cell; vertical-align: middle;}
+      .centering {
+        float: none;
+        margin: 0 auto;
+      }
 
-	.centering {
-	  float:none;
-	  margin:0 auto;
-	}
+      #main {
+        background: #4e93df;
+      }
+    </style>
 
-	#main{
-		background: #4e93df;
-	}
-	</style>
-
-	<!-- jQuery -->
-	<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-
-</head>
-<body>
+    <!-- jQuery -->
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+  </head>
+  <body>
     <div class="container-fluid" id="main">
-	    <div class="row-fluid">
-		    <div class="col-xs-6 centering text-center">
-		        <div class="col-xs-12" id="pass-dialog">
-		            <div class="well page active row" id="about">
-		            	<div class="col-xs-8 col-xs-offset-2">
-		            		<div><img src="./img/sticky-logo.svg" onerror="this.onerror=null; this.src='./img/sticky-logo.png'" width="300px"> 
-		            		</div>
-			            	<h2 class="subtitle"></h2>
+      <div class="row-fluid">
+        <div class="col-xs-6 centering text-center">
+          <div class="col-xs-12" id="pass-dialog">
+            <div class="well page active row" id="about">
+              <div class="col-xs-8 col-xs-offset-2">
+                <div>
+                  <img
+                    src="./img/sticky-logo.svg"
+                    onerror="this.onerror=null; this.src='./img/sticky-logo.png'"
+                    width="300px"
+                  />
+                </div>
+                <h2 class="subtitle"></h2>
 
-				            <div class="form-group">
-                                <div class="form-control-wrapper" style="margin-top:50px;">
-
-                                	<input class="form-control empty" id="focusedInput" type="password">
-                                	<div class="floating-label centered">Password
-                                	</div>
-                                	<span class="material-input"></span>
-                                </div>
-                            </div>
-		             	</div>
-		            </div>
-		        </div>
-		    </div>
-    	<div style="position:absolute; width:60px; height:40px; right:70px; bottom:40px; color: grey;"> <h1>Demos</h1></div>
-	    </div>
+                <div class="form-group">
+                  <div class="form-control-wrapper" style="margin-top: 50px">
+                    <input
+                      class="form-control empty"
+                      id="focusedInput"
+                      type="password"
+                    />
+                    <div class="floating-label centered">Password</div>
+                    <span class="material-input"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          style="
+            position: absolute;
+            width: 60px;
+            height: 40px;
+            right: 70px;
+            bottom: 40px;
+            color: grey;
+          "
+        >
+          <h1>Demos</h1>
+        </div>
+      </div>
     </div>
 
-
     <script language="javascript">
-		$(document).ready(function() {
-		    $('#focusedInput').keydown(function(event) {
-		        if (event.keyCode == 13) {
-		        	var password=($('#focusedInput').val());
-		        	if (password == "msuwake"){
-		            	location.href = "https://firewaterapparel.co/" + password ;
-		            	return false;
-		        	}
-		        	else{
-
-		        	console.log('wrong pass');
-		        	}
-
-		        }
-		    });
-		});
-	</script>
+      $(document).ready(function () {
+        $("#focusedInput").keydown(function (event) {
+          if (event.keyCode == 13) {
+            var password = $("#focusedInput").val();
+            if (password == "msuwake") {
+              location.href = "https://firewaterapparel.co/" + password;
+              return false;
+            } else {
+              console.log("wrong pass");
+            }
+          }
+        });
+      });
+    </script>
 
     <!-- Twitter Bootstrap -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -102,7 +129,5 @@
     <script>
       $.material.init();
     </script>
-
-
-</body>
+  </body>
 </html>
