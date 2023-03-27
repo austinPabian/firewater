@@ -1,0 +1,44 @@
+{
+  "name": "firewater",
+  "version": "1.0.0",
+  "description": "https://firewaterapparel.co",
+  "scripts": {
+    "start": "http-server -p 8080 ./dist",
+    "format:staged": "pretty-quick --staged",
+    "prepare": "husky install",
+    "build": "broccoli build dist"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run format:staged"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinpabian/firewater.git"
+  },
+  "author": "Austin Pabian <austinpabian@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/austinpabian/firewater/issues"
+  },
+  "homepage": "https://github.com/austinpabian/firewater#readme",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "broccoli": "^3.5.2",
+    "broccoli-cli": "^1.0.0",
+    "broccoli-htmlmin": "^2.1.0",
+    "broccoli-image-min": "^2.2.0",
+    "broccoli-merge-trees": "^4.2.0",
+    "broccoli-postcss": "^6.1.0",
+    "broccoli-svgo": "^4.0.0",
+    "broccoli-terser-sourcemap": "^4.1.0",
+    "cssnano": "^5.1.15",
+    "http-server": "^14.1.1",
+    "husky": "^8.0.3",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "prettier": "^2.8.7",
+    "pretty-quick": "^3.1.3"
+  }
+}

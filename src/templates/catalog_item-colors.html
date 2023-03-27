@@ -1,0 +1,128 @@
+<!-- BEGIN ITEM_x_0 -->
+<div
+  class="col-xl-3 col-lg-4 col-md-6 lg-margin-100px-bottom xs-margin-50px-bottom"
+>
+  <div class="fw-catalog-item">
+    <!-- CHANGE BUTTON DESTINATION TO ITEM MODAL -->
+    <a class="popup-with-zoom-anim" href="#modal-item_x_0"
+      ><figure class="m-0">
+        <img class="w-100" src="/teams/msu-wake/catalog/mockup-1.png" alt="" />
+
+        <figcaption>
+          <div
+            class="interactive-banners-hover-action align-items-center d-flex"
+          >
+            <div
+              class="padding-4-half-rem-lr padding-5-rem-tb last-paragraph-no-margin lg-padding-4-rem-all xl-padding-3-rem-all xs-padding-5-rem-all"
+            >
+              <button
+                class="btn btn-small btn-fancy btn-black btn-catalog submit"
+              >
+                VIEW ITEM
+              </button>
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+    </a>
+  </div>
+  <div class="text-center margin-25px-top">
+    <span
+      class="text-black alt-font font-weight-700 sm-no-text-shadow text-uppercase title-extra-small"
+      ><img class="new-flair" src="/images/new-icon.svg" />Green State Wake
+      Hoodie</span
+    >
+    <span
+      class="alt-font font-weight-500 text-fw-red text-uppercase d-block margin-10px-bottom letter-spacing-1px"
+      >$32</span
+    >
+  </div>
+</div>
+<!-- END ITEM -->
+
+<!-- ITEM MODAL_x_0 -->
+<div
+  id="modal-item_x_0"
+  class="mobile-form zoom-anim-dialog col-12 col-xl-8 col-md-10 col-sm-12 mx-auto bg-white text-left padding-4-half-rem-all mfp-hide border-radius-6px sm-padding-2-half-rem-lr"
+>
+  <div class="container-fluid padding-40px-lr xs-padding-25px-lr">
+    <div class="row">
+      <div
+        class="col-xl-5 col-md-10 offset-xl-0 offset-md-1 fw-catalog-item lg-margin-10px-bottom xs-margin-15px-bottom"
+      >
+        <img class="w-100" src="/teams/msu-wake/catalog/mockup-1.png" alt="" />
+      </div>
+      <div
+        class="col-xl-7 col-md-10 offset-xl-0 offset-md-1 col-sm-12 lg-margin-10px-bottom xs-margin-10px-bottom"
+      >
+        <!-- CHANGE ITEM INFORMATION HERE -->
+        <span
+          class="alt-font text-extra-large font-weight-600 text-black margin-25px-bottom"
+          >Green State Wake Hoodie</span
+        >
+        <br />
+        <p>Unisex sizing. Screen-printed front and back.</p>
+        <div class="col-xl-4 col-lg-6 col-md-8 col-sm-12 col-xs-12">
+          <!-- CHANGE SIZE NUMBER BELOW -->
+          <label>Select a size:</label>
+          <select id="size_x_0">
+            <option value="Small">Small</option>
+            <option value="Medium">Medium</option>
+            <option value="Large">Large</option>
+            <option value="X-Large">X-Large</option>
+            <option value="2X-Large">2X-Large</option>
+          </select>
+
+          <!-- CHANGE COLOR NUMBER BELOW -->
+          <label>Pick a color:</label>
+          <select id="color_x_0">
+            <option value="White">White</option>
+            <option value="Black">Black</option>
+            <option value="Green">Green</option>
+          </select>
+
+          <!-- CHANGE ITEM NUMBER AND INFORMATION BELOW -->
+          <button
+            id="item_x_0"
+            class="snipcart-add-item btn btn-fancy btn-black btn-atc popup-modal-dismiss"
+            data-item-id="msu-wake_x_0"
+            data-item-price="32.00"
+            data-item-url="https://firewaterapparel.co/teams/msu-wake/catalog"
+            data-item-description="Unisex sizing. Screen-printed front and back."
+            data-item-image="/teams/msu-wake/catalog/mockup-1.png"
+            data-item-name="Green State Wake Hoodie"
+            data-item-custom1-name="Size"
+            data-item-custom1-options="Small|Medium|Large|X-Large|2X-Large"
+            data-item-custom2-name="Color"
+            data-item-custom2-options="White|Black|Green"
+          >
+            <i class="fa fa-shopping-cart" style="margin-right: 5px"> </i>Add to
+            cart
+          </button>
+
+          <!-- CHANGE VARIABLE NUMBERS BELOW -->
+          <script>
+            const button_x_0 = document.querySelector("#item_x_0");
+            const size_x_0 = document.querySelector("#size_x_0");
+            size_x_0.addEventListener("change", () => {
+              // Sets the default frame color when adding the item
+              button_x_0.setAttribute(
+                "data-item-custom1-value",
+                size_x_0.value
+              );
+            });
+            const color_x_0 = document.querySelector("#color_x_0");
+            color_x_0.addEventListener("change", () => {
+              // Sets the default frame color when adding the item
+              button_x_0.setAttribute(
+                "data-item-custom2-value",
+                color_x_0.value
+              );
+            });
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END ITEM MODAL -->
