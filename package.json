@@ -29,6 +29,7 @@
     "broccoli-cli": "^1.0.0",
     "broccoli-merge-trees": "^4.2.0",
     "broccoli-postcss": "^6.1.0",
+    "cssnano": "^5.1.15",
     "http-server": "^14.1.1",
     "husky": "^8.0.3",
     "postcss": "^8.4.21",
