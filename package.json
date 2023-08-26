@@ -1,0 +1,21 @@
+{
+  "name": "firewater",
+  "version": "1.0.0",
+  "description": "https://firewaterapparel.co",
+  "scripts": {
+    "start": "http-server -p 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinpabian/firewater.git"
+  },
+  "author": "Austin Pabian <austinpabian@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/austinpabian/firewater/issues"
+  },
+  "homepage": "https://github.com/austinpabian/firewater#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
